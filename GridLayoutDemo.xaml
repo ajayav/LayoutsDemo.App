@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LayoutsDemo.GridLayoutDemo"
+             Title="GridLayoutDemo">
+    <Grid RowDefinitions="Auto ,Auto, Auto"
+          ColumnDefinitions="Auto, Auto, Auto"
+          Padding="10"
+          Margin="10"
+         ColumnSpacing="5">
+        <Button 
+            Text="Click Me"
+            Grid.Column="1"/>
+        <Button 
+            Text="What the Heck" 
+            Grid.Row="0"
+            Grid.Column="0"/>
+        <Button Text="What the Heck"
+                Grid.Row="1"
+                Grid.Column="0" />
+    </Grid>
+</ContentPage>
