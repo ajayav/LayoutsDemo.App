@@ -8,6 +8,6 @@ public partial class App : Application
 
 		//MainPage = new StackLayoutDemo();
 		//MainPage = new HorizontalStackLayoutDemo();		
-		MainPage = new GridLayoutDemo();
+		MainPage = new AbsoluteLayoutDemo();
 	}
 }
